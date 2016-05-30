@@ -1,0 +1,24 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<nav class="navbar navbar-fixed-top header">
+  <h4>HSI Innovators' Society</h4>
+</nav>
+<div class="navbar navbar-default" id="subnav">
+  <div class="col-md-12">
+    <div class="navbar-header">
+      <c:if test="${not empty sessionScope.user}">
+      <ul class="nav dropdown-menu">
+        <li class="nav-divider"></li>
+        <li><a href="#"><i class="glyphicon glyphicon-cog" style="color:#dd1111;"></i> Settings</a></li>
+      </ul>
+      </c:if>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse2">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="/">Notices</a></li>
+        <li><a href="/qna/${user.par_teamNum}" role="button">QnA</a></li>
+        <li><a href="/rank" role="button">Rank</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
