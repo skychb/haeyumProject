@@ -24,7 +24,7 @@
 							<div class="auth-info">
 								<i class="icon-add-comment"></i>
 								<span class="time"><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${each.date}" /></span>
-								<a href="#" class="author">혜윰팀</a>
+								<a href="#" class="author">HSI 2016 사무국</a>
 							</div>
 							<div class="reply" title="댓글">
 								<i class="icon-reply"></i>
@@ -39,7 +39,7 @@
 				<div class="col-md-6 text-center">
 					<ul class="pagination center-block" style="display:inline-block;">
 						<li><a href="#">«</a></li>
-						<li><a href="#">1</a></li>
+						<li><a href="#">efef</a></li>
 						<li><a href="#">2</a></li>
 						<li><a href="#">3</a></li>
 						<li><a href="#">4</a></li>

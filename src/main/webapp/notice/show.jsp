@@ -27,7 +27,7 @@
 							<img src="https://graph.facebook.com/v2.3/100000059371774/picture" class="article-author-thumb" alt="">
 						</div>
 						<div class="article-header-text">
-							<a href="/users/92/kimmunsu" class="article-author-name">혜윰팀</a>
+							<a class="article-author-name">HSI 2016 사무국</a>
 							<a href="/questions/413" class="article-header-time" title="퍼머링크">
 								<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${question.date}" />
 								<i class="icon-link"></i>
